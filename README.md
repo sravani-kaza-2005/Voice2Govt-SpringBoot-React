@@ -38,4 +38,6 @@ The project is organized into two main components:
 - **Node.js** and **npm**: For the frontend.
 - **Java 17** or later: For the backend.
 - **MySQL**: To set up the database.
-
+--
+## **License**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
