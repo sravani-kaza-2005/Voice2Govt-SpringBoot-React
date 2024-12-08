@@ -39,9 +39,3 @@ The project is organized into two main components:
 - **Java 17** or later: For the backend.
 - **MySQL**: To set up the database.
 
-### **Step-by-Step Setup**
-
-#### **1. Clone the Repository**
-```bash
-git clone https://github.com/sandeepshavukari/Voice2Govt-SpringBoot-React.git
-cd Voice2Govt-SpringBoot-React
