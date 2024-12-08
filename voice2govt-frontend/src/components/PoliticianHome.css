@@ -1,0 +1,207 @@
+/* General Styling */
+body {
+    background: linear-gradient(to right, #f0f4f8, #dfe4ea); /* Light background gradient */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin-top: 40px;
+  }
+  
+  /* Header Styling */
+  h2.display-4 {
+    font-size: 2.5rem;
+    color: #007bff; /* Blue for the title */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p.lead {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #6c757d; /* Muted text color */
+    font-weight: 300;
+    margin-top: 15px;
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Pending Issues Card */
+  .card.bg-primary {
+    background-color: #007bff !important;
+    color: white;
+  }
+  
+  .card.bg-primary .card-header {
+    background-color: #0056b3;
+  }
+  
+  .card.bg-primary .card-title {
+    color: #ff6347;
+  }
+  
+  /* Resolved Issues Card */
+  .card.bg-success {
+    background-color: #28a745 !important;
+    color: white;
+  }
+  
+  .card.bg-success .card-header {
+    background-color: #218838;
+  }
+  
+  .card.bg-success .card-title {
+    color: white;
+  }
+  
+  /* Update Issues Card */
+  .card.bg-warning {
+    background-color: #ffc107 !important;
+    color: white;
+  }
+  
+  .card.bg-warning .card-header {
+    background-color: #e0a800;
+  }
+  
+  .card.bg-warning .card-title {
+    color: #212529;
+  }
+  
+  /* Button Styling */
+  .btn-outline-primary, 
+  .btn-outline-success, 
+  .btn-outline-info, 
+  .btn-outline-light {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-outline-primary:hover, 
+  .btn-outline-success:hover, 
+  .btn-outline-info:hover, 
+  .btn-outline-light:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Additional Features Section */
+  .card-header.bg-info {
+    background-color: #17a2b8 !important;
+  }
+  
+  .card-header.bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  /* Quick Access Buttons */
+  .btn-lg {
+    font-size: 1.25rem;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-outline-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-outline-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #218838;
+  }
+  
+  /* Spacing for Sections */
+  .mb-4 {
+    margin-bottom: 2rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 1.5rem;
+    }
+  
+    .btn-lg {
+      font-size: 1.1rem;
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h2.display-4 {
+      font-size: 2rem;
+    }
+  
+    .card-body {
+      padding: 15px;
+    }
+  
+    .btn-lg {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  /* Custom styles for buttons */
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Optional: Style for other buttons if needed */
+  .btn-outline-primary, .btn-outline-info, .btn-outline-dark, .btn-outline-light {
+    border-radius: 5px;
+  }
+  

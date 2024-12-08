@@ -1,0 +1,169 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Hero Section with Abstract Design */
+.hero-section {
+  position: relative;
+  background: linear-gradient(to right, #5c6bc0, #3f51b5); /* Color gradient */
+  height: 80vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 30% 10px;
+  border-bottom-right-radius: 30% 10px;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+/* Actions Section */
+.actions {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.actions-title {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #495057;
+}
+
+.action-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 30px;
+  width: 270px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  font-size: 3rem;
+  color: #3f51b5;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-icon {
+  color: #5c6bc0;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card-button:hover {
+  background-color: #283593;
+  transform: scale(1.05);
+}
+
+/* Create Issue Section */
+.create-issue-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.create-issue-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #495057;
+}
+
+.back-button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .action-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
