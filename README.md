@@ -43,5 +43,5 @@ The project is organized into two main components:
 
 #### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/Voice2Govt-SpringBoot-React.git
+git clone https://github.com/sandeepshavukari/Voice2Govt-SpringBoot-React.git
 cd Voice2Govt-SpringBoot-React
