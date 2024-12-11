@@ -96,7 +96,7 @@
 // // }
 
 import React, { useState } from "react";
-import "./home.css";
+import "./Home.css";
 
 const AdminHome = () => {
   const [showPopup, setShowPopup] = useState(false);
