@@ -28,6 +28,7 @@ This project demonstrates full-stack development with React and Spring Boot and 
 
 🔍 Transparency – Enhances visibility into government actions and responses.
 
+----
 📂 Project Structure
 Voice2Govt-SpringBoot-React/
 │
@@ -46,7 +47,7 @@ Voice2Govt-SpringBoot-React/
 │
 ├── README.md                  # Project documentation
 └── LICENSE                    # MIT License
-
+-----
 ⚙️ Installation & Setup
 Prerequisites
 
