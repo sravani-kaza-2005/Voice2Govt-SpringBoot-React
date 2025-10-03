@@ -110,7 +110,8 @@ Java Mail API – Email notifications
 Frontend: Netlify / Vercel
 Database: MySQL
 
-📜 License
+-----
+**📜 License**
 
 📌 This project is licensed under the MIT License 
 
