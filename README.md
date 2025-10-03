@@ -1,4 +1,4 @@
-# 🌐 Voice2Govt-SpringBoot-React
+# 🌐 Voice2Govt-SpringBoot
 
 **Voice2Govt** is a full-stack web application aimed at **enhancing interaction between citizens and government officials**.  
 It provides a platform for reporting issues, sharing feedback, and promoting transparency in governance.  
